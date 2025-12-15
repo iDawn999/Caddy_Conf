@@ -1,0 +1,9 @@
+# 全局配置
+{
+    http_port 80
+    https_port 443
+    admin off
+}
+
+# 导入整个conf.d目录下的所有.conf配置文件
+import /data/caddy/conf.d/*.conf
